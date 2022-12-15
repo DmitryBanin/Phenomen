@@ -1,0 +1,230 @@
+/* ===== team head ===== */
+
+.team__container {
+  margin-top: 62px;
+  margin-bottom: 30px;
+}
+.team__head {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 760px;
+  padding-bottom: 97px;
+}
+.team__head-title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 60px;
+  line-height: 81.6px;
+  padding-bottom: 23px;
+}
+.team__head-desc {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+}
+
+/* ===== teams ===== */
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.team {
+  width: 420px;
+  height: calc(420px * 1, 19);
+  margin-bottom: 90px;
+}
+.team__photo-box {
+  margin: 0 auto;
+  width: 360px;
+  height: calc(360px * 1.2911);
+  background-color: rgb(231, 171, 171);
+}
+.team__photo {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 360px;
+  height: 100%;
+}
+.team__desc-box {
+  display: inline-block;
+  width: 100%;
+}
+.team__desc {
+  height: 80px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team__name {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 20px;
+  line-height: 27.2px;
+  text-transform: uppercase;
+}
+.team__role {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 15px;
+  line-height: 19px;
+}
+
+/* ===== добавить hide-overflow тегу body ===== */
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+/* ===== Popup ===== */
+
+.popup__container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  z-index: 1;
+  background-color: #060114;
+  transition: left 0.3s ease 0s;
+}
+.popup {
+  max-width: 1180px;
+  padding-top: 72px;
+  margin: 0 auto;
+}
+.popup__close {
+  display: flex;
+  justify-content: flex-end;
+}
+.popup__close-icone {
+  background-color: transparent;
+  outline: none;
+}
+.popup__close-icone::before {
+  content: url('../images/close-icone-white.svg');
+  cursor: pointer;
+}
+.popup__close-icone:hover::before {
+  opacity: 0.7;
+}
+.popup__info {
+  padding-top: 106px;
+  display: flex;
+  justify-content: space-between;
+}
+.popup__info-name {
+  text-align: left;
+  max-width: 283px;
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 60px;
+  line-height: 82px;
+}
+.popup__info-items {
+  max-width: 657px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.popup__item-title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 20px;
+  line-height: 27.2px;
+  text-transform: uppercase;
+}
+.popup__border {
+  border-top: 2px solid #f3b932;
+  margin: 16px 0;
+}
+.popup__item-desc {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+}
+
+.popup__container--active {
+  display: none;
+}
+
+/* ===== Media ===== */
+
+/* PC */
+@media (max-width: 1114.98px) {
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+  .popup {
+    max-width: 750px;
+    padding-top: 20px;
+  }
+  .popup__close {
+    margin-bottom: 40px;
+  }
+  .popup__info-items {
+    font-family: 'NeoGram Extended ExtraBold';
+    width: 100%;
+    gap: 30px;
+  }
+  .popup__info-name {
+    text-align: left;
+    width: 283px;
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .popup__info-items {
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .popup__item-title {
+    font-size: 17.5px;
+    line-height: 23px;
+    text-transform: uppercase;
+  }
+  .popup__item-desc {
+    font-family: 'NeoGram Condensed Regular';
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+  .popup {
+    max-width: 450px;
+  }
+  .popup__info {
+    flex-direction: column;
+  }
+  .popup__info-items {
+    width: 100%;
+    gap: 30px;
+  }
+  .popup__info-name {
+    text-align: left;
+    width: 150px;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 40px;
+  }
+  .popup__item-title {
+    font-size: 15px;
+    line-height: 20.4px;
+    text-transform: uppercase;
+  }
+  .popup__border {
+    margin: 10px 0;
+  }
+  .popup__item-desc {
+    font-family: 'NeoGram Condensed Regular';
+    font-size: 12px;
+    line-height: 15.26px;
+  }
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}

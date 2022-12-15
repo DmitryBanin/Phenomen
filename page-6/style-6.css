@@ -1,0 +1,178 @@
+/* ===== portfolio ===== */
+
+.portfolio__container {
+  margin-top: 62px;
+  margin-bottom: 150px;
+}
+.portfolio__haed {
+  text-align: center;
+}
+.portfolio__haed-title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 60px;
+  line-height: 81.6px;
+  margin-bottom: 20px;
+}
+.portfolio__haed-desc {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+  width: min(100%, 760px);
+  margin-inline: auto;
+  margin-bottom: 60px;
+}
+
+/* ===== token ===== */
+
+.token__dynamic-list {
+  display: none;
+}
+
+.token__item {
+  width: 100%;
+  height: 100px;
+  padding: 0 60px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: center;
+}
+.token__item:first-child {
+  width: 100%;
+  border-top: 1px solid #fff;
+  background-color: #afafaf;
+  height: 60px;
+}
+.token__item-title {
+}
+.token__item-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 440px;
+}
+.token__item-arrow {
+  width: 24px;
+  height: 24px;
+}
+.token__name-column {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 25px;
+  line-height: 31.8px;
+  letter-spacing: 2%;
+}
+.token__name-column-title {
+  text-transform: uppercase;
+  letter-spacing: 11%;
+}
+
+/* ===== Media ===== */
+
+@media (max-width: 1439.98px) {
+  .sectors__container {
+    gap: 50px;
+  }
+}
+
+/* PC */
+@media (max-width: 1114.98px) {
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+  .portfolio__haed {
+  text-align: left;
+}
+  .token__item {
+    padding: 0 30px;
+  }
+  .token__name-column {
+    font-size: 18px;
+    line-height: 15.26px;
+  }
+  .token__name-column-title {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+  .token__static-list {
+    display: none;
+  }
+  .token__dynamic-list {
+    display: block;
+  }
+  .portfolio__haed-title {
+    font-size: 30px;
+    line-height: 40.8px;
+  }
+  .portfolio__haed-desc {
+    font-size: 18px;
+    line-height: 22.9px;
+  }
+
+  /* ===== Dynamic Block ===== */
+
+  .token__item-filter {
+    display: none;
+  }
+
+  .collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+  }
+  .collapsible::before {
+    margin-bottom: 20px;
+  }
+  /* .active,
+  .collapsible:hover {
+    background-color: transparent;
+    color: #f3b932;
+  } */
+  .collapsible::after {
+    content: url('../images/mark-down.svg');
+    float: right;
+    height: 25px;
+    margin-top: 2.5px;
+    transition: 0.2s;
+  }
+  .active::after {
+    content: url('../images/mark-down.svg');
+    transform: rotate(180deg);
+    transition: 0.2s;
+  }
+  .token__item-logo {
+    height: 34%;
+  }
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+    /* margin-bottom: 20px; */
+  }
+  .content__desk-line {
+    display: flex;
+    align-items: center;
+    font-family: 'NeoGram Condensed Regular';
+    font-size: 12px;
+    line-height: 15.26px;
+    height: 47px;
+  }
+  .content__desk-line:not(:last-child) {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+@font-face {
+  font-family: 'NeoGram Condensed Regular';
+  font-weight: 400;
+  src: local('NeoGram Condensed Regular'),
+    url('../fonts/NeoGram-Condensed-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-weight: 800;
+  src: local('NeoGram Extended ExtraBold'),
+    url('../fonts/NeoGram Extended W00 ExtraBold.woff2') format('woff2');
+}

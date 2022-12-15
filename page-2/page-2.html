@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHENOMEN</title>
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/normalize-css.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="./style-2.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="../page-1/page-1.html" class="header__logo">
+            <img
+              src="../images/logo/phenomen-logo.svg"
+              alt="Phenomen-logo"
+              class="header__logo-link"
+            />
+          </a>
+
+          <a href="#open" class="burger__button"><span></span></a>
+
+          <!-- для отображения mobile-menu добавить класс mobile-menu--active, на body добавить класс hide-overflow {overflow: hidden} -->
+          <div class="mobile-menu">
+            <nav class="mobile-menu__nav">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                  <a href="#close" class="close-icon-menu"></a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="../page-3/page-3.html" class="mobile-menu__link"
+                    >INVEST</a
+                  >
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    FUND
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >SECTORS</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >EXPERTISE</a
+                    >
+                    <a
+                      href="../page-5/page-5.html"
+                      class="mobile-menu__link drop-down"
+                      >STRATEGIES</a
+                    >
+                  </div>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">PORTFOLIO</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    ABOUT
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >TEAM</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >CONTACTS</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="../page-2/page-2.html" class="header__link">INVEST</a>
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">FUND</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-fund">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a href="../page-3/page-3.html" class="menu__option-link"
+                      >SECTORS</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-4/page-4.html" class="menu__option-link"
+                      >EXPERTISE</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-5/page-5.html" class="menu__option-link"
+                      >STRATEGIES</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__list-item">
+                <a href="../page-6/page-6.html" class="header__link"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">ABOUT</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-about">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a
+                      href="../page-7-popup/page-7-popup.html"
+                      class="menu__option-link"
+                      >TEAM</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-8/page-8.html" class="menu__option-link"
+                      >CONTACTS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="main__container">
+          <div class="venture-capital">
+            <h1 class="venture-capital__title">Phenomen Venture Capital</h1>
+            <ul class="venture-capital__desc-list">
+              <li class="venture-capital__desc">
+                Our fund provides investors with a full range of access to the
+                blockchain space, ranging from illiquid venture capital assets
+                (including early stage tokens and multi-stage venture capital)
+                to more liquid assets such as bitcoins and other
+                cryptocurrencies.
+              </li>
+              <li class="venture-capital__desc">
+                Access for accredited investors with a minimum amount of
+                $1,000,000 or more.
+              </li>
+              <li class="venture-capital__desc">
+                If you meet the above requirements and would like to learn more,
+                please fill out the form for more information.
+              </li>
+            </ul>
+          </div>
+          <div class="inquiry">
+            <h2 class="inquiry__title">INVESTOR INQUIRY</h2>
+            <form
+              class="reg-form"
+              action=""
+              method=""
+              enctype=""
+              autocomplete=""
+            >
+              <div class="reg-form__elements">
+                <!-- First name -->
+                <div class="reg-form__elements-block">
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title"
+                      >First name</label
+                    >
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                  <!-- Last name -->
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title">Last name</label>
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                </div>
+                <div class="reg-form__elements-block">
+                  <!-- Email -->
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title">Email</label>
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                  <!-- City -->
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title">City</label>
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                </div>
+                <div class="reg-form__elements-block">
+                  <!-- Company name -->
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title"
+                      >Company name</label
+                    >
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                  <!-- Job title -->
+                  <fieldset class="reg-form__element">
+                    <label class="reg-form__label" for="title">Job title</label>
+                    <input id="title" name="title" type="text" required />
+                  </fieldset>
+                </div>
+              </div>
+              <!-- Phone number -->
+              <fieldset class="reg-form__element">
+                <label class="reg-form__label" for="title">Phone number</label>
+                <input id="title" name="title" type="text" required />
+              </fieldset>
+              <!-- Type of investor -->
+              <fieldset class="reg-form__element">
+                <label class="reg-form__label" for="title"
+                  >Type of investor</label
+                >
+                <select
+                  class="select"
+                  id="investor"
+                  name="types"
+                  required
+                  autofocus
+                >
+                  <option value="1" selected>Type 1</option>
+                  <option value="2">Type 2</option>
+                  <option value="3">Type 3</option>
+                </select>
+              </fieldset>
+              <!-- What type of investment are you interested in? -->
+              <fieldset class="reg-form__element-checkbox">
+                <h3 class="reg-form__label-checkbox-title">
+                  What type of investment are you interested in?
+                </h3>
+
+                <label class="reg-form__label reg-form__label-checkbox">
+                  <input type="checkbox" name="a" value="Early stage tokens" />
+                  <span>Early stage tokens</span>
+                </label>
+
+                <label class="reg-form__label reg-form__label-checkbox">
+                  <input type="checkbox" name="a" value="Liquid tokens" />
+                  <span>Liquid tokens</span>
+                </label>
+
+                <label class="reg-form__label reg-form__label-checkbox">
+                  <input
+                    type="checkbox"
+                    name="a"
+                    value="Cryptocurrency mining"
+                    checked
+                  />
+                  <span>Cryptocurrency mining</span>
+                </label>
+              </fieldset>
+              <!-- Additional Questions -->
+              <fieldset class="reg-form__element">
+                <label class="reg-form__label" for="title"
+                  >Additional Questions:</label
+                >
+                <input id="title" name="title" type="text" required />
+              </fieldset>
+              <!-- Submit -->
+              <fieldset class="reg-form__element">
+                <button class="reg-form__submit" type="submit">SUBMIT</button>
+              </fieldset>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <section class="footer__container">
+          <h2 class="footer__title">Phenomen Venture Capital</h2>
+          <nav class="footer__nav">
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">INVEST</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">PORTFOLIO</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">FOUNDATION APP</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">FUND</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">EXPERTISE</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">SECTORS</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">STRATEGIES</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">ABOUT</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">TEAM</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">CONTACTS</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

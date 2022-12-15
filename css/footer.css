@@ -1,0 +1,90 @@
+.footer {
+  background: #eeeeee;
+  width: 100%;
+  height: 250px;
+}
+.footer__container {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  color: #070707;
+}
+.footer__title {
+  -webkit-text-stroke: 0.3px #000000;
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+  width: 390px;
+}
+.footer__nav-item-list {
+  font-family: 'IBM Plex Mono';
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+.footer__nav-item-title {
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+/* убирает висячий отступ у последнего элемента */
+.footer__nav-item:not(:last-child) {
+  padding-bottom: 16px;
+}
+/* -------------------------------------------- */
+
+.footer__link {
+  color: #070707;
+}
+.footer__link:hover {
+  color: #f3b932;
+  transition: 0.2s;
+}
+
+/* ===== Media ===== */
+
+/* PC */
+@media (max-width: 1114.98px) {
+  /* good */
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+  /* good */
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+  .footer {
+    margin: 0 auto;
+  }
+  .footer__container {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 44px 20px 0 20px;
+  }
+  .footer__title {
+    padding-bottom: 26px;
+    font-size: 20px;
+    line-height: 25.44px;
+  }
+  .footer__nav {
+    width: 100%;
+  }
+  .footer__nav-item-list {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .footer__nav-item-title {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}

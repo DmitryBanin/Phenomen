@@ -1,0 +1,82 @@
+/* ===== CONTACT US ===== */
+
+.contact-us {
+  max-width: 1003px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.contact-us__title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 90px;
+  line-height: 122.4px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+.contact-us__info-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 170px;
+  height: 120px;
+}
+.contact-us__info {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us__info-title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 40px;
+  line-height: 54.4px;
+  line-height: 1.2%;
+  display: flex;
+  align-items: center;
+}
+.border {
+  border-left: 2px solid #f3b932;
+  margin: 0 20px 0 30px;
+}
+.contact-us__email-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-us__email-headline {
+  line-height: 1%;
+}
+.headline-text {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 20px;
+  line-height: 27.2px;
+  text-transform: uppercase;
+}
+.contact-us__desc {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+  width: 225px;
+}
+.country__headline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== Media ===== */
+
+@media (max-width: 1439.98px) {
+}
+
+/* PC */
+@media (max-width: 1114.98px) {
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}

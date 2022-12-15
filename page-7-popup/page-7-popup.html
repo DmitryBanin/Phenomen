@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHENOMEN</title>
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/normalize-css.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="./style-7-popup.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body class="hide-overflow">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="../page-1/page-1.html" class="header__logo">
+            <img
+              src="../images/logo/phenomen-logo.svg"
+              alt="Phenomen-logo"
+              class="header__logo-link"
+            />
+          </a>
+
+          <a href="#open" class="burger__button"><span></span></a>
+
+          <!-- для отображения mobile-menu добавить класс mobile-menu--active, на body добавить класс hide-overflow {overflow: hidden} -->
+          <div class="mobile-menu">
+            <nav class="mobile-menu__nav">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                  <a href="#close" class="close-icon-menu"></a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="../page-3/page-3.html" class="mobile-menu__link"
+                    >INVEST</a
+                  >
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    FUND
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >SECTORS</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >EXPERTISE</a
+                    >
+                    <a
+                      href="../page-5/page-5.html"
+                      class="mobile-menu__link drop-down"
+                      >STRATEGIES</a
+                    >
+                  </div>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">PORTFOLIO</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    ABOUT
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >TEAM</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >CONTACTS</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="../page-2/page-2.html" class="header__link">INVEST</a>
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">FUND</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-fund">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a href="../page-3/page-3.html" class="menu__option-link"
+                      >SECTORS</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-4/page-4.html" class="menu__option-link"
+                      >EXPERTISE</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-5/page-5.html" class="menu__option-link"
+                      >STRATEGIES</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__list-item">
+                <a href="../page-6/page-6.html" class="header__link"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">ABOUT</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-about">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a
+                      href="../page-7-popup/page-7-popup.html"
+                      class="menu__option-link"
+                      >TEAM</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-8/page-8.html" class="menu__option-link"
+                      >CONTACTS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="team__container">
+          <div class="team__head">
+            <h1 class="team__head-title">The Phenomen team</h1>
+            <p class="team__head-desc">
+              Phenomen&#8217;s competitive edge is built on thought leadership,
+              technical talent, and years of investing exclusively in blockchain
+              assets.
+            </p>
+          </div>
+
+          <div class="teams__box">
+            <ul class="teams">
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/1-narek-akopyan.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">NAREK AKOPYAN</h2>
+                      <p class="team__role">
+                        CEO Founder & Chief Investment Officer
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/2-arthur-dmitriev.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">ARTHUR DMITRIEV</h2>
+                      <p class="team__role">
+                        Strategic Advisor & IT Developer
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/3-artem-perepechko.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">ARTEM PEREPECHKO</h2>
+                      <p class="team__role">
+                        Chief Financial Officer & Investment Analyst
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/4-mikhail-rusanov.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">MIKHAIL RUSANOV</h2>
+                      <p class="team__role">Team Lead</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/5-dmitry-stoletov.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">DMITRY STOLETOV</h2>
+                      <p class="team__role">Project office manager</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="team">
+                <a href="#">
+                  <div class="team__photo-box">
+                    <img
+                      class="team__photo"
+                      src="../images/persons/6-andrew-skob.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="team__desc-box">
+                    <div class="team__desc">
+                      <h2 class="team__name">ANDREW SKOB</h2>
+                      <p class="team__role">Chief Engineer</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <section class="footer__container">
+          <h2 class="footer__title">Phenomen Venture Capital</h2>
+          <nav class="footer__nav">
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">INVEST</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">PORTFOLIO</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">FOUNDATION APP</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">FUND</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">EXPERTISE</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">SECTORS</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">STRATEGIES</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">ABOUT</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">TEAM</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">CONTACTS</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </footer>
+
+      <!-- POPUP -->
+
+      <section class="popup__container popup__container--active">
+        <div class="popup">
+          <div class="popup__close">
+            <button class="popup__close-icone" type="button"></button>
+          </div>
+          <div class="popup__info">
+            <h1 class="popup__info-name">N'arek Akopyan</h1>
+            <div class="popup__info-items">
+              <div class="popup__info-item">
+                <h2 class="popup__item-title">ROLE</h2>
+                <div class="popup__border"></div>
+                <p class="popup__item-desc">
+                  CEO Founder & Chief Investment Officer
+                </p>
+              </div>
+              <div class="popup__info-item">
+                <h2 class="popup__item-title">BIO</h2>
+                <div class="popup__border"></div>
+                <p class="popup__item-desc">
+                  He has more than 5 years of experience in investing and
+                  managing the cryptocurrency market, the main base of analysis
+                  is technical. He is the founder of Phenomen Ventures Capital.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <script src="../js/collapsible.js"></script> -->
+  </body>
+</html>

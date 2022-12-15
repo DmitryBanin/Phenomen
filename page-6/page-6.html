@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHENOMEN</title>
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/normalize-css.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="./style-6.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="../page-1/page-1.html" class="header__logo">
+            <img
+              src="../images/logo/phenomen-logo.svg"
+              alt="Phenomen-logo"
+              class="header__logo-link"
+            />
+          </a>
+
+          <a href="#open" class="burger__button"><span></span></a>
+
+          <!-- для отображения mobile-menu добавить класс mobile-menu--active, на body добавить класс hide-overflow {overflow: hidden} -->
+          <div class="mobile-menu">
+            <nav class="mobile-menu__nav">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                  <a href="#close" class="close-icon-menu"></a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="../page-3/page-3.html" class="mobile-menu__link"
+                    >INVEST</a
+                  >
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    FUND
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >SECTORS</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >EXPERTISE</a
+                    >
+                    <a
+                      href="../page-5/page-5.html"
+                      class="mobile-menu__link drop-down"
+                      >STRATEGIES</a
+                    >
+                  </div>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">PORTFOLIO</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <button
+                    class="mobile-menu__link collapsible-button"
+                    type="button"
+                  >
+                    ABOUT
+                    <img
+                      src="../images/arrow-down-black.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-down"
+                    />
+                    <img
+                      src="../images/arrow-up.svg"
+                      alt="arrow"
+                      class="header__link-arrow header__link-arrow-up"
+                    />
+                  </button>
+                  <div class="mobile-menu__drop-down">
+                    <a
+                      href="../page-3/page-3.html"
+                      class="mobile-menu__link drop-down"
+                      >TEAM</a
+                    >
+                    <a
+                      href="../page-4/page-4.html"
+                      class="mobile-menu__link drop-down"
+                      >CONTACTS</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="../page-2/page-2.html" class="header__link">INVEST</a>
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">FUND</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-fund">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a href="../page-3/page-3.html" class="menu__option-link"
+                      >SECTORS</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-4/page-4.html" class="menu__option-link"
+                      >EXPERTISE</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-5/page-5.html" class="menu__option-link"
+                      >STRATEGIES</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__list-item">
+                <a href="../page-6/page-6.html" class="header__link"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="header__list-item">
+                <div class="header__list-item-arrow">
+                  <a href="#" class="header__link">ABOUT</a>
+                  <img
+                    src="../images/arrow-down.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-down"
+                  />
+                  <img
+                    src="../images/arrow-up.svg"
+                    alt="arrow"
+                    class="header__link-arrow header__link-arrow-up"
+                  />
+                </div>
+                <!-- выпадающее меню -->
+                <ul class="menu__options menu__options-about">
+                  <div class="triangle"></div>
+                  <li class="menu__option">
+                    <a
+                      href="../page-7-popup/page-7-popup.html"
+                      class="menu__option-link"
+                      >TEAM</a
+                    >
+                  </li>
+                  <li class="menu__option">
+                    <a href="../page-8/page-8.html" class="menu__option-link"
+                      >CONTACTS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="portfolio__container">
+          <div class="portfolio__haed">
+            <h1 class="portfolio__haed-title">A fund portfolio</h1>
+            <p class="portfolio__haed-desc">
+              We invest in thematic ideas and projects that are core elements of
+              the blockchain ecosystem infrastructure, such as exchanges,
+              depositories, institutional trading instruments, decentralized
+              finance, next-generation payment systems and more.
+            </p>
+          </div>
+
+          <div class="token__static-list">
+            <ul class="token__items">
+              <li class="token__item token__item-filter">
+                <div class="token__item-block">
+                  <img
+                    src="../images/arrow-title-line.svg"
+                    alt="logo"
+                    class="token__item-arrow"
+                  />
+                  <p class="token__name-column token__name-column-title">
+                    NAME
+                  </p>
+                </div>
+                <div class="token__item-block">
+                  <img
+                    src="../images/arrow-title-line.svg"
+                    alt="logo"
+                    class="token__item-arrow"
+                  />
+                  <p class="token__name-column token__name-column-title">
+                    TYPE
+                  </p>
+                </div>
+                <div class="token__item-block">
+                  <img
+                    src="../images/arrow-title-line.svg"
+                    alt="logo"
+                    class="token__item-arrow"
+                  />
+                  <p class="token__name-column token__name-column-title">
+                    SECTOR
+                  </p>
+                </div>
+              </li>
+              <!-- 1 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/1-mina.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 2 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/2-clover.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Website</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">
+                    Clover provides a foundation layer for DeFi applications to
+                    seamlessly operate on.
+                  </p>
+                </div>
+              </li>
+              <!-- 3 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/3-covalent.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">DeFi</p>
+                </div>
+              </li>
+              <!-- 4 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/4-contrefuge.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 5 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/5-vega.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">DeFi</p>
+                </div>
+              </li>
+              <!-- 6 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/6-swarm.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Protocol</p>
+                </div>
+              </li>
+              <!-- 7 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/7-human.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Consumer</p>
+                </div>
+              </li>
+              <!-- 8 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/8.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Consumer</p>
+                </div>
+              </li>
+              <!-- 9 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/9-qredo.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Finance</p>
+                </div>
+              </li>
+              <!-- 10 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/10-immutablex.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 11 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/11-braintrust.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">DeFi</p>
+                </div>
+              </li>
+              <!-- 12 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/12-biconomy.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 13 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/13.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">GameFi</p>
+                </div>
+              </li>
+              <!-- 14 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/14-gari.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Network</p>
+                </div>
+              </li>
+              <!-- 15 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/15-zeitgeist.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Protocol</p>
+                </div>
+              </li>
+              <!-- 16 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/16-guardians.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">GameFi</p>
+                </div>
+              </li>
+              <!-- 17 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/17-sit.country.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Metaverse</p>
+                </div>
+              </li>
+              <!-- 18 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/18-umee.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">DeFi</p>
+                </div>
+              </li>
+              <!-- 19 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/19-h.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Venture</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 20 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/20-spstake.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Protocol</p>
+                </div>
+              </li>
+              <!-- 21 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/21-agoric.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 22 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/22-stader.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">DeFi</p>
+                </div>
+              </li>
+              <!-- 23 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/23-nym.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 24 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/24-galxe.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Infrastructure</p>
+                </div>
+              </li>
+              <!-- 25 -->
+              <li class="token__item">
+                <div class="token__item-block">
+                  <img
+                    src="../images/logo/25-axelar.svg"
+                    alt="logo"
+                    class="token__item-logo"
+                  />
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Early-Stage Token</p>
+                </div>
+                <div class="token__item-block">
+                  <p class="token__name-column">Protocol</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="token__dynamic-list">
+            <!-- 1 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/1-mina.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/2-clover.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Website</p>
+                <p class="content__desk-line">
+                  Clover provides a foundation layer for DeFi applications to
+                  seamlessly operate on.
+                </p>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/3-covalent.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">DeFi</p>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/4-contrefuge.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="token__name-column">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/5-vega.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">DeFi</p>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/6-swarm.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Protocol</p>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/7-human.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Consumer</p>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/8.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Consumer</p>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/9-qredo.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Finance</p>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/10-immutablex.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/11-braintrust.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">DeFi</p>
+              </div>
+            </div>
+            <!-- 12 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/12-biconomy.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 13 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/13.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">GameFi</p>
+              </div>
+            </div>
+            <!-- 14 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/14-gari.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Network</p>
+              </div>
+            </div>
+            <!-- 15 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/15-zeitgeist.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Protocol</p>
+              </div>
+            </div>
+            <!-- 16 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/16-guardians.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">GameFi</p>
+              </div>
+            </div>
+            <!-- 17 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/17-sit.country.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Metaverse</p>
+              </div>
+            </div>
+            <!-- 18 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/18-umee.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">DeFi</p>
+              </div>
+            </div>
+            <!-- 19 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/19-h.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 20 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/20-spstake.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Protocol</p>
+              </div>
+            </div>
+            <!-- 21 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/21-agoric.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 22 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/22-stader.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">DeFi</p>
+              </div>
+            </div>
+            <!-- 23 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/23-nym.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 24 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/24-galxe.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Infrastructure</p>
+              </div>
+            </div>
+            <!-- 25 -->
+            <div class="token__dynamic-block">
+              <button class="collapsible">
+                <img
+                  src="../images/logo/25-axelar.svg"
+                  alt="logo"
+                  class="token__item-logo"
+                />
+              </button>
+              <div class="content">
+                <p class="content__desk-line">Early-Stage Token</p>
+                <p class="content__desk-line">Protocol</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <section class="footer__container">
+          <h2 class="footer__title">Phenomen Venture Capital</h2>
+          <nav class="footer__nav">
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">INVEST</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">PORTFOLIO</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">FOUNDATION APP</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">FUND</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">EXPERTISE</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">SECTORS</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">STRATEGIES</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-item-list">
+              <li class="footer__nav-item">
+                <h4 class="footer__nav-item-title">ABOUT</h4>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">TEAM</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__link">CONTACTS</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </footer>
+    </div>
+    <script src="../js/collapsible.js"></script>
+  </body>
+</html>

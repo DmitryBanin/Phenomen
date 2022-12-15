@@ -1,0 +1,222 @@
+/* ===== (1) venture ===== */
+
+.main__container {
+  display: flex;
+  margin-top: 67px;
+  margin-bottom: 125px;
+  gap: 190px;
+}
+.venture-capital {
+  max-width: 606px;
+}
+.venture-capital__title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 60px;
+  line-height: 81px;
+  margin-bottom: 66px;
+  width: 500px;
+}
+.venture-capital__desc-list {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+}
+.venture-capital__desc:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+/* ===== (2) inquiry ===== */
+
+.inquiry {
+  width: 100%;
+}
+.inquiry__title {
+  font-family: 'NeoGram Extended ExtraBold';
+  font-size: 20px;
+  line-height: 27.2px;
+  margin-top: 23px;
+  margin-bottom: 31px;
+  text-transform: uppercase;
+}
+.reg-form {
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  line-height: 25.44px;
+}
+.reg-form__elements-block {
+  display: flex;
+  gap: 44px;
+}
+.reg-form__element {
+  padding-bottom: 25px;
+  width: 100%;
+}
+.reg-form__label {
+  display: block;
+  padding-bottom: 11px;
+}
+.reg-form__element input,
+.reg-form__element select,
+.reg-form__element textarea {
+  width: 100%;
+  height: 60px;
+  padding-left: 15px;
+
+  font-family: 'NeoGram Condensed Regular';
+  font-size: 20px;
+  color: #fff;
+
+  background: #060114;
+  border: 2px solid #f6f6f6;
+  border-radius: 2px;
+}
+.reg-form__element input:hover,
+.reg-form__element select:hover,
+.reg-form__element textarea:hover {
+  border-color: #f3b932;
+}
+
+.reg-form__element input:focus,
+.reg-form__element select:focus,
+.reg-form__element textarea:focus {
+  outline: none;
+}
+.reg-form__label-checkbox-title {
+  margin-top: -4px;
+  padding-bottom: 15px;
+}
+.reg-form__label-checkbox {
+  cursor: pointer;
+  padding-bottom: 31px;
+}
+.reg-form__label-checkbox:last-child {
+  padding-bottom: 24px;
+}
+.reg-form__label-checkbox input {
+  display: none;
+}
+.reg-form__label-checkbox span {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 35px;
+  line-height: 22px;
+}
+.reg-form__label-checkbox span::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(/images/checkbox-off.svg) 0 0 no-repeat;
+}
+.reg-form__label-checkbox input + span::after {
+  content: '';
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.reg-form__label-checkbox input:checked + span::after,
+.reg-form__label-checkbox input:checked + span::before {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: url(/images/checkbox-on.svg) 0 0 no-repeat;
+  opacity: 1;
+}
+.reg-form__label-checkbox span:hover:before {
+  background: url(/images/checkbox-focus.svg) 0 0 no-repeat;
+}
+
+.reg-form__submit {
+  font-size: 20px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  height: 53px;
+  margin-top: 25px;
+  background: #f3b932;
+  border-radius: 2px;
+}
+.reg-form__submit:hover {
+  border: 2px solid #ffffff;
+  background: #060114;
+}
+.reg-form__submit:active {
+  color: #f3b932;
+  background: #060114;
+  border: 2px solid #f3b932;
+}
+
+/* ===== Media ===== */
+
+@media (max-width: 1439.98px) {
+  .main__container {
+    gap: 95px;
+  }
+}
+
+/* PC */
+@media (max-width: 1114.98px) {
+  .main__container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .venture-capital {
+    width: 100%;
+  }
+  .inquiry {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+  .reg-form__elements-block {
+    flex-direction: column;
+    gap: 0;
+  }
+  .venture-capital__title {
+    font-size: 30px;
+    line-height: 40.8px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .venture-capital__desc-list {
+    font-size: 18px;
+    line-height: 22.9px;
+  }
+  .venture-capital__desc {
+    margin-bottom: 44px;
+  }
+  .inquiry__title {
+  font-size: 15px;
+  line-height: 20.4px;
+  margin-top: 0;
+  margin-bottom: 31px;
+}
+.reg-form {
+  font-size: 18px;
+  line-height: 22.9px;
+}
+.reg-form__element input,
+.reg-form__element select,
+.reg-form__element textarea {
+  font-size: 18px;
+}
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+  .main__container {
+    width: 320px;
+  }
+}
