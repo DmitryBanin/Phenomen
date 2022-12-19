@@ -101,6 +101,10 @@ li:hover .header__link-arrow-up {
   transform: rotate(90deg);
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* ===== Media ===== */
 
 /* PC */
@@ -145,6 +149,7 @@ li:hover .header__link-arrow-up {
   /*==== Mobile-menu ===*/
 
   .mobile-menu {
+    display: block;
     position: fixed;
     top: 0;
     left: -100%;
@@ -158,7 +163,7 @@ li:hover .header__link-arrow-up {
   .mobile-menu--active,
   body {
     left: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .mobile-menu__nav {
     max-width: 450px;
