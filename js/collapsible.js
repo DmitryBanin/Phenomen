@@ -19,7 +19,3 @@ for (let i = 0; i < collapsibleELements.length; i++) {
   });
 }
 
-// .nextElementSibling
-// .maxHeight
-// .scrollHeight
-// .style

@@ -105,6 +105,10 @@ li:hover .header__link-arrow-up {
   display: none;
 }
 
+.hide-overflow {
+  overflow: hidden;
+}
+
 /* ===== Media ===== */
 
 /* PC */
@@ -160,10 +164,8 @@ li:hover .header__link-arrow-up {
     background-color: #ffffff;
     transition: left 0.3s ease 0s;
   }
-  .mobile-menu--active,
-  body {
+  .mobile-menu--active {
     left: 0;
-    /* overflow: hidden; */
   }
   .mobile-menu__nav {
     max-width: 450px;
@@ -208,7 +210,7 @@ li:hover .header__link-arrow-up {
     margin: 0 auto;
   }
 
-.collapsible-button:hover {
+  .collapsible-button:hover {
     color: #f3b932;
   }
 
