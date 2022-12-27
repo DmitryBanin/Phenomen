@@ -2,13 +2,13 @@
 
 .main__container {
   min-height: 100%;
-  margin-top: 52px;
+  margin-top: 65px;
   margin-bottom: 150px;
 }
 .main__title {
   font-family: 'NeoGram Extended ExtraBold';
   font-size: 90px;
-  line-height: 122px;
+  line-height: 115px;
   max-width: 1080px;
   margin-bottom: 38px;
 }

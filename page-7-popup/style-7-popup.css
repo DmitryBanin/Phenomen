@@ -1,14 +1,14 @@
 /* ===== team head ===== */
 
 .team__container {
-  margin-top: 62px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 .team__head {
   margin: 0 auto;
   text-align: center;
   max-width: 760px;
-  padding-bottom: 97px;
+  padding-bottom: 80px;
 }
 .team__head-title {
   font-family: 'NeoGram Extended ExtraBold';
