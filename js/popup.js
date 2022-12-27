@@ -9,7 +9,8 @@ popupCloseIcone.addEventListener('click', function (evt) {
 });
 
 teamPersonInfo.forEach((person) => {
-  person.addEventListener('click', function () {
+  person.addEventListener('click', function (evt) {
+    evt.preventDefault();
     popupContainer.classList.add('popup__container--active');
     body.classList.add('hide-overflow');
   });
