@@ -85,9 +85,13 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  z-index: 1;
+  z-index: 5;
   background-color: #060114;
   transition: left 0.3s ease 0s;
+  left: -100%;
+}
+.popup__container--active {
+  left: 0;
 }
 .popup {
   max-width: 1180px;
@@ -97,10 +101,6 @@
 .popup__close {
   display: flex;
   justify-content: flex-end;
-}
-.popup__close-icone {
-  background-color: transparent;
-  outline: none;
 }
 .popup__close-icone::before {
   content: url('../images/close-icone-white.svg');
@@ -141,10 +141,6 @@
   font-family: 'NeoGram Condensed Regular';
   font-size: 20px;
   line-height: 25.44px;
-}
-
-.popup__container--active {
-  display: none;
 }
 
 /* ===== Media ===== */

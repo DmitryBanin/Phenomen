@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./style-7-popup.css" />
     <link rel="stylesheet" href="../css/footer.css" />
   </head>
-  <body class="hide-overflow">
+  <!-- на body добавлять класс hide-overflow {overflow: hidden} -->
+  <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
@@ -25,7 +26,7 @@
 
           <a href="#open" class="burger__button"><span></span></a>
 
-          <!-- для отображения mobile-menu добавить класс mobile-menu--active, на body добавить класс hide-overflow {overflow: hidden} -->
+          <!-- на mobile-menu добавлять класс mobile-menu--active -->
           <div class="mobile-menu">
             <nav class="mobile-menu__nav">
               <ul class="mobile-menu__list">
@@ -203,7 +204,7 @@
           <div class="teams__box">
             <ul class="teams">
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -223,7 +224,7 @@
               </li>
 
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -234,15 +235,13 @@
                   <div class="team__desc-box">
                     <div class="team__desc">
                       <h2 class="team__name">ARTHUR DMITRIEV</h2>
-                      <p class="team__role">
-                        Strategic Advisor & IT Developer
-                      </p>
+                      <p class="team__role">Strategic Advisor & IT Developer</p>
                     </div>
                   </div>
                 </a>
               </li>
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -261,7 +260,7 @@
                 </a>
               </li>
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -278,7 +277,7 @@
                 </a>
               </li>
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -295,7 +294,7 @@
                 </a>
               </li>
               <li class="team">
-                <a href="#">
+                <a href="#" class="team__person-info">
                   <div class="team__photo-box">
                     <img
                       class="team__photo"
@@ -362,10 +361,11 @@
 
       <!-- POPUP -->
 
-      <section class="popup__container popup__container--active">
+      <!-- на popup__container добавлять класс popup__container--active -->
+      <section class="popup__container">
         <div class="popup">
           <div class="popup__close">
-            <button class="popup__close-icone" type="button"></button>
+            <a href="#" class="popup__close-icone"></a>
           </div>
           <div class="popup__info">
             <h1 class="popup__info-name">N'arek Akopyan</h1>
@@ -392,5 +392,6 @@
       </section>
     </div>
     <script src="../js/mobile-menu.js"></script>
+    <script src="../js/popup.js"></script>
   </body>
 </html>
