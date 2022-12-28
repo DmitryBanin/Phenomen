@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-const collapsibleELements = body.querySelectorAll('.collapsible-button');
+const collapsibleElements = body.querySelectorAll('.collapsible-button');
 const burgerButton = body.querySelector('.burger__button');
 const mobileMenu = body.querySelector('.mobile-menu');
 const closeMenu = body.querySelector('.close-icon-menu');
@@ -14,11 +14,11 @@ closeMenu.addEventListener('click', function () {
   mobileMenu.classList.remove('mobile-menu--active');
 });
 
-for (let i = 0; i < collapsibleELements.length; i++) {
-  collapsibleELements[i].addEventListener('click', function () {
-    this.classList.toggle('active');
+collapsibleElements.forEach((element) => {
+  element.addEventListener('click', function () {
+    element.classList.toggle('active');
 
-    const collapsible = this.nextElementSibling;
+    const collapsible = element.nextElementSibling;
 
     if (collapsible.style.maxHeight) {
       collapsible.style.maxHeight = null;
@@ -26,4 +26,4 @@ for (let i = 0; i < collapsibleELements.length; i++) {
       collapsible.style.maxHeight = collapsible.scrollHeight + 'px';
     }
   });
-}
+});
