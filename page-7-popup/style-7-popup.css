@@ -146,11 +146,25 @@
 /* ===== Media ===== */
 
 /* PC */
-@media (max-width: 1114.98px) {
+@media (max-width: 1344.98px) {
+  .teams {
+    justify-content: space-evenly;
+    gap: 30px;
+  }
 }
 
 /* TABLET */
 @media (max-width: 991.98px) {
+  .team__container {
+    margin-top: 90px;
+    margin-bottom: 130px;
+  }
+  .teams {
+    gap: 0;
+  }
+  .team {
+    margin-bottom: 50px;
+  }
   .popup {
     max-width: 750px;
     padding-top: 20px;
@@ -189,6 +203,65 @@
 
 /* MOBILE */
 @media (max-width: 767.98px) {
+  .teams {
+    justify-content: center;
+
+  }
+  .team {
+    width: 300px;
+    height: calc(300px * 1.19);
+    margin-bottom: 50px;
+  }
+  .team__photo-box {
+    margin: 0 auto;
+    width: 240px;
+    height: calc(240px * 1.2911);
+    background-color: rgb(231, 171, 171);
+  }
+  .team__photo {
+    object-fit: cover;
+    object-position: 0 0;
+    width: 240px;
+    height: 100%;
+  }
+  .team__desc-box {
+    display: inline-block;
+    width: 100%;
+  }
+  .team__desc {
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .team__name {
+    font-family: 'NeoGram Extended ExtraBold';
+    font-size: 15px;
+    line-height: 20.4px;
+    text-transform: uppercase;
+  }
+  .team__role {
+    font-family: 'NeoGram Condensed Regular';
+    font-size: 12px;
+    line-height: 15.26px;
+  }
+
+  .team__head {
+    text-align: left;
+    padding-bottom: 50px;
+  }
+  .team__head-title {
+    font-size: 30px;
+    line-height: 40.8px;
+  }
+  .team__head-desc {
+    font-size: 18px;
+    line-height: 22.9px;
+  }
   .popup {
     max-width: 450px;
   }
