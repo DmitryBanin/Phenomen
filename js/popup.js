@@ -1,3 +1,5 @@
+// import { persons } from './data';
+
 const teamPersonInfo = body.querySelectorAll('.team__person-info');
 const popupCloseIcone = body.querySelector('.popup__close-icone');
 const popupContainer = body.querySelector('.popup__container');

@@ -38,7 +38,6 @@
   margin: 0 auto;
   width: 360px;
   height: calc(360px * 1.2911);
-  background-color: rgb(231, 171, 171);
 }
 .team__photo {
   object-fit: cover;
@@ -216,7 +215,6 @@
     margin: 0 auto;
     width: 240px;
     height: calc(240px * 1.2911);
-    background-color: rgb(231, 171, 171);
   }
   .team__photo {
     object-fit: cover;
