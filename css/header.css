@@ -198,6 +198,9 @@ li:hover .header__link-arrow-up {
     line-height: 26px;
     cursor: pointer;
   }
+  .mobile-menu__link:hover {
+    color: #f3b932;
+  }
   .drop-down {
     font-weight: 500;
     color: #787878;
