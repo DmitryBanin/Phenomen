@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHENOMEN</title>
+    <link
+      type="image/x-icon"
+      rel="shortcut icon"
+      href="../favicon/favicon.ico"
+    />
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="stylesheet" href="../css/normalize-css.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="./style-4.css" />
     <link rel="stylesheet" href="../css/footer.css" />
   </head>
-    <!-- на body добавлять класс hide-overflow {overflow: hidden} -->
+  <!-- на body добавлять класс hide-overflow {overflow: hidden} -->
   <body>
     <div class="wrapper">
       <header class="header">
@@ -26,7 +31,7 @@
 
           <a href="#" class="burger__button"><span></span></a>
 
-                   <!-- на mobile-menu добавлять класс mobile-menu--active -->
+          <!-- на mobile-menu добавлять класс mobile-menu--active -->
           <div class="mobile-menu">
             <nav class="mobile-menu__nav">
               <ul class="mobile-menu__list">
@@ -74,7 +79,9 @@
                   </div>
                 </li>
                 <li class="mobile-menu__item">
-                  <a href="../page-6/page-6.html" class="mobile-menu__link">PORTFOLIO</a>
+                  <a href="../page-6/page-6.html" class="mobile-menu__link"
+                    >PORTFOLIO</a
+                  >
                 </li>
                 <li class="mobile-menu__item">
                   <button
@@ -206,42 +213,36 @@
               </li>
             </ul>
           </div>
-          <div class="summary">
-            <h2 class="summary__title">SUMMARY OF TERMS</h2>
-            <div class="summare__list">
-              <ul class="summare__list-items">
-                <li class="summary__item">Launch:</li>
-                <li class="summary__item">March 2019</li>
-              </ul>
-              <ul class="summare__list-items">
-                <li class="summary__item">Minimum investment:</li>
-                <li class="summary__item">1 million dollars</li>
-              </ul>
-              <ul class="summare__list-items">
-                <li class="summary__item">Investor type:</li>
-                <li class="summary__item">Qualifying buyers only</li>
-              </ul>
-              <ul class="summare__list-items">
-                <li class="summary__item">Control board:</li>
-                <li class="summary__item">2% of invested capital annually</li>
-              </ul>
-              <ul class="summare__list-items">
-                <li class="summary__item">Pay for performance:</li>
-                <li class="summary__item">
-                  30% to 40% of the net internal rate of return
-                </li>
-              </ul>
-            </div>
-            <h3 class="summary__title">JOIN THE FUND</h3>
+          <aside class="summary">
+            <p class="summary__title">SUMMARY OF TERMS</p>
+
+            <dl class="summare__list">
+              <dt class="summary__item-key">Launch</dt>
+              <dd class="summary__item-value">March 2019</dd>
+              <dt class="summary__item-key">Minimum investment</dt>
+              <dd class="summary__item-value">1 million dollars</dd>
+              <dt class="summary__item-key">Investor type</dt>
+              <dd class="summary__item-value">Qualifying buyers only</dd>
+              <dt class="summary__item-key">Control board</dt>
+              <dd class="summary__item-value">
+                2% of invested capital annually
+              </dd>
+              <dt class="summary__item-key">Pay for performance</dt>
+              <dd class="summary__item-value">
+                30% to 40% of the net internal rate of return
+              </dd>
+            </dl>
+
+            <p class="summary__title">JOIN THE FUND</p>
             <p class="summary__desk">
               To gain access, you will need to answer several questions and
               provide supporting documentation
             </p>
-            <nav class="summary__nav">
+            <div class="summary__nav">
               <a class="summary__link" href="#">PRESENTATION</a>
               <a class="summary__link" href="#">CONDITIONS SUMMARY</a>
-            </nav>
-          </div>
+            </div>
+          </aside>
         </section>
         <section class="faq__container">
           <div class="faq__item">

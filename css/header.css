@@ -52,6 +52,8 @@ li:hover .header__link-arrow-up {
   color: #f3b932;
 }
 
+/* ----- menu__option ----- */
+
 .menu__option-link:hover {
   color: #f3b932;
 }
@@ -60,9 +62,17 @@ li:hover .header__link-arrow-up {
   border: 1px solid #ffffff;
   /*!  drop-shadow не срабатывает  */
   filter: drop-shadow(0px 0px 8px rgba(0.255, 255, 255, 0.25));
+  top: 28px;
 }
-.menu__options {
-  top: 32px;
+.menu__options::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 75px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #ffffff;
+  transform: rotate(90deg);
 }
 .menu__options-fund {
   left: -43px;
@@ -90,15 +100,6 @@ li:hover .header__link-arrow-up {
 .menu__option-link {
   color: #f6f6f6;
   text-align: center;
-}
-.triangle {
-  position: absolute;
-  top: -9px;
-  left: 75px;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 8px solid #ffffff;
-  transform: rotate(90deg);
 }
 
 .mobile-menu {

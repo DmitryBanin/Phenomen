@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHENOMEN</title>
+    <link
+      type="image/x-icon"
+      rel="shortcut icon"
+      href="../favicon/favicon.ico"
+    />
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="stylesheet" href="../css/normalize-css.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="./style-2.css" />
     <link rel="stylesheet" href="../css/footer.css" />
   </head>
-    <!-- на body добавлять класс hide-overflow {overflow: hidden} -->
+  <!-- на body добавлять класс hide-overflow {overflow: hidden} -->
   <body>
     <div class="wrapper">
       <header class="header">
@@ -26,7 +31,7 @@
 
           <a href="#" class="burger__button"><span></span></a>
 
-                    <!-- на mobile-menu добавлять класс mobile-menu--active -->
+          <!-- на mobile-menu добавлять класс mobile-menu--active -->
           <div class="mobile-menu">
             <nav class="mobile-menu__nav">
               <ul class="mobile-menu__list">
@@ -74,7 +79,9 @@
                   </div>
                 </li>
                 <li class="mobile-menu__item">
-                  <a href="../page-6/page-6.html" class="mobile-menu__link">PORTFOLIO</a>
+                  <a href="../page-6/page-6.html" class="mobile-menu__link"
+                    >PORTFOLIO</a
+                  >
                 </li>
                 <li class="mobile-menu__item">
                   <button
@@ -131,7 +138,6 @@
                 </div>
                 <!-- выпадающее меню -->
                 <ul class="menu__options menu__options-fund">
-                  <div class="triangle"></div>
                   <li class="menu__option">
                     <a href="../page-3/page-3.html" class="menu__option-link"
                       >SECTORS</a
@@ -170,7 +176,6 @@
                 </div>
                 <!-- выпадающее меню -->
                 <ul class="menu__options menu__options-about">
-                  <div class="triangle"></div>
                   <li class="menu__option">
                     <a
                       href="../page-7-popup/page-7-popup.html"
@@ -214,75 +219,95 @@
           </div>
           <div class="inquiry">
             <h2 class="inquiry__title">INVESTOR INQUIRY</h2>
-            <form
-              class="reg-form"
-              action=""
-              method=""
-              enctype=""
-              autocomplete=""
-            >
+            <form class="reg-form" id="form" name="form">
               <div class="reg-form__elements">
                 <!-- First name -->
                 <div class="reg-form__elements-block">
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title"
+                    <label class="reg-form__label" for="first-name"
                       >First name</label
                     >
-                    <input id="title" name="title" type="text" required />
+                    <input
+                      id="first-name"
+                      name="first-name"
+                      type="text"
+                      required
+                    />
                   </fieldset>
                   <!-- Last name -->
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title">Last name</label>
-                    <input id="title" name="title" type="text" required />
+                    <label class="reg-form__label" for="last-name"
+                      >Last name</label
+                    >
+                    <input
+                      id="last-name"
+                      name="last-name"
+                      type="text"
+                      required
+                    />
                   </fieldset>
                 </div>
                 <div class="reg-form__elements-block">
                   <!-- Email -->
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title">Email</label>
-                    <input id="title" name="title" type="text" required />
+                    <label class="reg-form__label" for="email">Email</label>
+                    <input id="email" name="email" type="email" required />
                   </fieldset>
                   <!-- City -->
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title">City</label>
-                    <input id="title" name="title" type="text" required />
+                    <label class="reg-form__label" for="city">City</label>
+                    <input id="city" name="city" type="text" required />
                   </fieldset>
                 </div>
                 <div class="reg-form__elements-block">
                   <!-- Company name -->
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title"
+                    <label class="reg-form__label" for="company"
                       >Company name</label
                     >
-                    <input id="title" name="title" type="text" required />
+                    <input id="company" name="company" type="text" required />
                   </fieldset>
                   <!-- Job title -->
                   <fieldset class="reg-form__element">
-                    <label class="reg-form__label" for="title">Job title</label>
-                    <input id="title" name="title" type="text" required />
+                    <label class="reg-form__label" for="job-title"
+                      >Job title</label
+                    >
+                    <input
+                      id="job-title"
+                      name="job-title"
+                      type="text"
+                      required
+                    />
                   </fieldset>
                 </div>
               </div>
               <!-- Phone number -->
               <fieldset class="reg-form__element">
-                <label class="reg-form__label" for="title">Phone number</label>
-                <input id="title" name="title" type="text" required />
+                <label class="reg-form__label" for="phone-number"
+                  >Phone number</label
+                >
+                <input
+                  id="phone-number"
+                  name="phone-number"
+                  type="tel"
+                  required
+                />
               </fieldset>
               <!-- Type of investor -->
               <fieldset class="reg-form__element">
-                <label class="reg-form__label" for="title"
+                <label class="reg-form__label" for="investor"
                   >Type of investor</label
                 >
                 <select
                   class="select"
                   id="investor"
-                  name="types"
+                  name="investor"
                   required
                   autofocus
                 >
-                  <option value="1" selected>Type 1</option>
-                  <option value="2">Type 2</option>
-                  <option value="3">Type 3</option>
+                  <option >Type 1</option>
+                  <option >Type 2</option>
+                  <option >Type 3</option>
                 </select>
               </fieldset>
               <!-- What type of investment are you interested in? -->
@@ -297,14 +322,14 @@
                 </label>
 
                 <label class="reg-form__label reg-form__label-checkbox">
-                  <input type="checkbox" name="a" value="Liquid tokens" />
+                  <input type="checkbox" name="b" value="Liquid tokens" />
                   <span>Liquid tokens</span>
                 </label>
 
                 <label class="reg-form__label reg-form__label-checkbox">
                   <input
                     type="checkbox"
-                    name="a"
+                    name="c"
                     value="Cryptocurrency mining"
                     checked
                   />
@@ -313,10 +338,10 @@
               </fieldset>
               <!-- Additional Questions -->
               <fieldset class="reg-form__element">
-                <label class="reg-form__label" for="title"
+                <label class="reg-form__label" for="questions"
                   >Additional Questions:</label
                 >
-                <input id="title" name="title" type="text" required />
+                <input id="questions" name="questions" type="text" required />
               </fieldset>
               <!-- Submit -->
               <fieldset class="reg-form__element">
@@ -330,7 +355,7 @@
       <footer class="footer">
         <section class="footer__container">
           <h2 class="footer__title">Phenomen Venture Capital</h2>
-          <nav class="footer__nav">
+          <div class="footer__nav">
             <ul class="footer__nav-item-list">
               <li class="footer__nav-item">
                 <h4 class="footer__nav-item-title">INVEST</h4>
@@ -367,7 +392,7 @@
                 <a href="#" class="footer__link">CONTACTS</a>
               </li>
             </ul>
-          </nav>
+          </div>
         </section>
       </footer>
     </div>

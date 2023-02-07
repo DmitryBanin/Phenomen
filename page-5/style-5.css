@@ -44,22 +44,20 @@
   padding: 20px 0;
 }
 .summare__list {
+  display: grid;
   margin-top: 22px;
-  margin-bottom: 51px;
+  margin-bottom: 50px;
+  gap: 10px;
 }
-.summare__list-items {
-  display: flex; 
-  justify-content: space-between;
+.summary__item-key {
+  grid-column-start: 1;
 }
-.summare__list-items:not(:last-child) {
-  margin-bottom: 14px;
-}
-.summary__item:first-child {
-  min-width: 130px;
-}
-.summary__item:last-child {
+.summary__item-value {
+  grid-column-start: 2;
   text-align: right;
-  width: 100%;
+}
+.summary__item-key::after {
+  content: ':';
 }
 .summary__desk {
   padding: 20px 0;
